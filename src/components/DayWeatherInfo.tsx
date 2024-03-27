@@ -1,27 +1,33 @@
+import thermometer from "@/assets/icons/thermometer.svg";
+import pop from "@/assets/icons/cloud-rain-light.svg";
+import wind from "@/assets/icons/wind-light.svg";
+import air from "@/assets/icons/drop-light.svg";
+import uv from "@/assets/icons/sun-dim-light.svg";
+
 const DayWeatherInfo = ({ data }: { data: EditedCityWeatherInfo }) => {
   const dayWeatherInfo = [
     {
-      icon: "/src/assets/icons/thermometer.svg",
+      icon: thermometer,
       title: "Thermal sensation",
       value: `${data?.weather.feels_like}ºc`,
     },
     {
-      icon: "/src/assets/icons/cloud-rain-light.svg",
+      icon: pop,
       title: "Probability of rain",
       value: `${data?.weather.pop}%`,
     },
     {
-      icon: "/src/assets/icons/wind-light.svg",
+      icon: wind,
       title: "Wind speed",
       value: `${data?.weather.wind_speed} km/h`,
     },
     {
-      icon: "/src/assets/icons/drop-light.svg",
+      icon: air,
       title: "Air humidity",
       value: `${data?.weather.humidity}%`,
     },
     {
-      icon: "/src/assets/icons/sun-dim-light.svg",
+      icon: uv,
       title: "UV index",
       value: `${data?.weather.temp_kf}`,
     },
