@@ -13,5 +13,5 @@
 - https://stock-app-eu.netlify.app/
 
 ## Screenshots
-<img src="src/assets/ss/iWeather-home.png" alt="home" style="zoom: 200%;" />
-<img src="src/assets/ss/iWeather-details.png" alt="details" style="zoom: 200%;" />
+<img src="src/assets/ss/iWeather-home.png" alt="home" style="zoom: 100%;" />
+<img src="src/assets/ss/iWeather-details.png" alt="details" style="zoom: 100%;" />
