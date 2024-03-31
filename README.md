@@ -2,12 +2,15 @@
 
 # iWeather App
 
+This is a Weather App using the OpenWeatherMap API. You can get the weather forecast for any city you want. It also automatically detects the weather in your current location if you allow it.
+
 ## Build with
 
 - Tailwind CSS
 - Axios
 - Tanstack/React-Query 
 - React Router Dom
+- OpenWeatherMap API
 
 ## Link
 - https://iweather-app-eu.netlify.app/
